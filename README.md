@@ -5,19 +5,15 @@ This repository contains a preprocessing pipeline for Influenza proteins data fi
 ### The data should be organized as follows:
 
 {path_folder}/
-
 │
-
 ├── ha_cleaned/
-│ ├── ha_{bin}.fa
-│ └── ...
+│   ├── ha_{bin}.fa
+│   └── ...
 │
 └── na_cleaned/
-├── na_{bin}.fa
-└── ...
+    ├── na_{bin}.fa
+    └── ...
 
-markdown
-Copy code
 
 - `{path_folder}`: This is the main folder containing the data.
 - `ha_cleaned/`: This subfolder contains the hemagglutinin (HA) sequences after initial manual curation.
