@@ -7,12 +7,12 @@ This repository contains a preprocessing pipeline for Influenza proteins data fi
 {path_folder}  
 │  
 ├── ha_cleaned/  
-│   ├── ha_{bin}.fa  
-│   └── ...  
+│      ├── ha_{bin}.fa  
+│      └── ...  
 │  
 └── na_cleaned/  
-    ├── na_{bin}.fa  
-    └── ...  
+       ├── na_{bin}.fa  
+       └── ...  
 
 
 - `{path_folder}`: This is the main folder containing the data.
