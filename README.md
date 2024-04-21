@@ -5,7 +5,9 @@ This repository contains a preprocessing pipeline for Influenza proteins data fi
 ### The data should be organized as follows:
 
 {path_folder}/
+
 │
+
 ├── ha_cleaned/
 │ ├── ha_{bin}.fa
 │ └── ...
