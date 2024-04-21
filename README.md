@@ -3,7 +3,7 @@
 This repository contains a preprocessing pipeline for Influenza proteins data file. The pipeline offers several options for preprocessing data, including removing reassortant entries, translation, and removal of duplicates.
 
 ### The data should be organized as follows:
-
+<pre>
 {path_folder}  
 │  
 ├── ha_cleaned/  
@@ -12,7 +12,8 @@ This repository contains a preprocessing pipeline for Influenza proteins data fi
 │  
 └── na_cleaned/  
        ├── na_{bin}.fa  
-       └── ...  
+       └── ... 
+</pre>       
 
 
 - `{path_folder}`: This is the main folder containing the data.
